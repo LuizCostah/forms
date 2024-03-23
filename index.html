@@ -1,20 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Forms</title>
-</head>
-<body>
-    <div id="google-form">
-        <form action="https://www.google.com.br/search">
-            <label for="">Google</label>
-            <br>
-            <input type="text" name="q">
-            <br>
-            <button>Procurar</button>
-        </form>
-    </div>
-</body>
+<html>
+    <head>
+        <title>Kelvys Moura</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <label for="menu-check" class="menu-label"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="menu-check">
+
+        <aside class="aside-wrap">
+            <img class="profile-img" src="https://source.unsplash.com/random/200x200?profile">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#home" class="menu-link">
+                            <i class="fa-solid fa-house"></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#skills" class="menu-link">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            Habilidades
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#experience" class="menu-link">
+                            <i class="fa-solid fa-briefcase"></i>
+                            Experiências
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#projects" class="menu-link">
+                            <i class="fa-solid fa-flask"></i>
+                            Projetos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <section id="home">
+                <h1 class="section-title">Luiz Costa</h1>
+                <h3>Desenvolvedor | PHP | JS | Magento2</h3>
+                <address>
+                    <a class="email-link" href="lkj.costa@gmail.com">lkj.costa@gmail.com</a>
+                </address>
+                <p class="section-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Harum incidunt quisquam voluptatem porro consequatur, 
+                    dolores quod reprehenderit tempora exercitationem ipsa quia et, 
+                    laboriosam expedita culpa dicta dolorem illo qui repellendus!
+                </p>
+                <ul class="social-links">
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Habilidades</h2>
+            </section>
+            <section id="experience">
+                <h2>Experiências</h2>
+            </section>
+            <section id="projects">
+                <h2>Projetos</h2>
+            </section>
+        </main>
+    </body>    
 </html>
